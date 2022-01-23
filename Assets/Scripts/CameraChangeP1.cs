@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraChange : MonoBehaviour
+public class CameraChangeP1 : MonoBehaviour
 {
     public GameObject NormalCam;
     public GameObject FPCam;
     public GameObject FPCam2;
-    public int CamMode;
+    private int CamMode;
 
     // Start is called before the first frame update
     void Start()
